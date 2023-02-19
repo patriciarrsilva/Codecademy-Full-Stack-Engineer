@@ -1,0 +1,35 @@
+.body {
+  font-family: Helvetica;
+  padding: 5px;
+}
+
+.title {
+  background-image: url('./images/pattern.jpeg');
+  color: khaki;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.article__title {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.article__title--brushes {
+  background: mediumspringgreen;
+}
+
+.article__title--frames {
+  background: lightcoral;
+}
+
+.article__title--paint {
+  background: skyblue;
+}
+
+.article__price {
+  font-weight: bold;
+  color: blue;
+}

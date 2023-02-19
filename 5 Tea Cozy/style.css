@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  opacity: 1;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list__item {
+  display: inline-block;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+main {
+  margin: 0 auto;
+  width: 92%;
+}
+
+section {
+  padding-top: 69px;
+}
+
+#mission {
+  background-image: url('./images/img-mission-background.jpeg');
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.mission__copy {
+  background-color: black;
+
+  flex-grow: 1;
+}
+
+.mission__title {
+  line-height: 2;
+}
+
+.mission__description {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.tea__description {
+  margin: 25px 0;
+}
+
+.figures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  flex: 0 0 300px;
+  margin: 0 10px 20px;
+}
+
+img {
+  max-height: 200px;
+  font-size: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#locations {
+  background-image: url('./images/img-locations-background.jpeg');
+  min-height: 500px;
+}
+
+.locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  flex: 1 0 300px;
+  height: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  padding: 0 20px;
+}
+
+address {
+  font-style: normal;
+  padding: 20px 0 40px;
+}
+
+.address__name {
+  font-weight: bold;
+  font-size: 33px;
+  padding-bottom: 10px;
+}
+
+.address__email {
+  margin: 30px;
+}
+
+address a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+main {
+  background-color: lightsalmon;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  color: Coral;
+  font-weight: normal;
+  margin: 0;
+  padding: 3.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+h2,
+p,
+q {
+  color: yellow;
+  font-weight: normal;
+  margin: 0;
+}
+
+a {
+  color: rgb(85, 26, 139);
+  text-decoration-color: rgb(0, 0, 238);
+}
+
+a:active {
+  text-decoration-color: rgb(255, 0, 0);
+}
+
+.nav {
+  background-color: teal;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 1.6rem 4rem 0;
+}
+
+.nav-list__item {
+  list-style-type: none;
+  padding: 0.8rem 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.nav-list__anchor {
+  color: lightsalmon;
+}
+
+.section--title {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+
+.section--intro {
+  padding: 0 1.6rem;
+}
+
+.intro__copy {
+  color: white;
+  margin: 1.6rem 0;
+}
+
+.intro__anchor:active {
+  color: rgb(255, 0, 0);
+}
+
+.section--photos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 6.4rem 0;
+}
+
+.section--quote {
+  background-color: teal;
+  padding: 1.6rem;
+}
+
+.quote__copy {
+  display: inline-block;
+  font-size: 3.2rem;
+  margin: 2.1rem 0;
+}
+
+.quote__author {
+  margin: 1.6rem 0;
+}
+
+.section--cta {
+  padding-bottom: 1.1rem;
+}
+
+.cta__copy {
+  font-size: 3.2rem;
+  padding: 2.1rem 0;
+  text-align: center;
+}
+
+.cta__image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .nav-list__anchor {
+    text-decoration: none;
+  }
+
+  .section--title {
+    height: 100vh;
+  }
+
+  .section--quote {
+    padding-bottom: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .section--photos {
+    flex-direction: row;
+    gap: 3.1rem;
+    justify-content: space-around;
+  }
+
+  .photo {
+    max-width: 30%;
+  }
+}

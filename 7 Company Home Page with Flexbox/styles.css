@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-size: 2.2rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-size: 3.3rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0;
+}
+
+header {
+  margin-bottom: 3.5rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list__item {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+#mission {
+  background-image: url('./skyscrapers.webp');
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.mission__content {
+  background-color: white;
+  width: 100%;
+}
+
+.mission__line {
+  margin: 0;
+  padding: 1rem;
+}
+
+.figures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+#portfolio figure {
+  display: flex;
+  align-items: center;
+}
+
+#team figure {
+  flex-basis: 30rem;
+}
+
+.figcaption__line {
+  display: block;
+  font-size: 2.2rem;
+  padding: 1rem;
+  min-width: 24rem;
+}
+
+.figcaption__line--size-l {
+  font-size: 2.6rem;
+}
+
+.figcaption__line--weight-normal {
+  font-weight: normal;
+}
+
+.figcaption__line--white {
+  color: white;
+}
+
+img {
+  max-width: 200px;
+  padding: 1rem;
+}
+
+#team {
+  margin-bottom: 2rem;
+}
+
+#team .figures {
+  background-image: url('./blurred-road.webp');
+}
+
+address a {
+  display: block;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer__copy {
+  font-size: 1.8rem;
+  padding: 3rem 0;
+}
